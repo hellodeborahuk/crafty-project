@@ -1,0 +1,41 @@
+dateModified: 1759781611
+email:
+  fromEmail: d3bbie.dann@gmail.com
+  fromName: 'crafty project'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: '@uploads'
+meta:
+  __names__:
+    4f1e2e67-be05-427c-98ac-a6a963d18a25: Text # Text
+    9ee8ac15-c76e-443b-a1c1-ffc14a31c104: Image # Image
+    545e08d8-f7bf-43f5-81c0-f70a9243218c: Post # Post
+    5818a0f6-fc58-4458-a538-3436b5fa5fc8: Topics # Topics
+    6514bce9-af56-4e95-8a43-4c6b165e7575: Images # Images
+    7390d5a6-3a27-4ee3-b450-da8cf1498181: Image # Image
+    359773b9-45a8-491e-b4ca-e3bbd917f59e: 'crafty project' # crafty project
+    b26559bd-619d-4fc2-aead-365cae1a4d77: 'Post Categories' # Post Categories
+    c569ebbf-3bf0-41e5-88a6-b7aa733cb763: 'crafty project' # crafty project
+    d9b8174a-adf5-4f02-8e5d-09200a9897e1: Blog # Blog
+    db3ef642-0e1b-4cf4-a58e-dd4aeeffcb21: 'Public Schema' # Public Schema
+    db521a39-df28-48ca-bdc3-cc23f2143d5f: 'Post Content' # Post Content
+    ded4e4d0-db35-4503-ace2-265cb528b599: Text # Text
+system:
+  edition: solo
+  live: true
+  name: 'crafty project'
+  schemaVersion: 5.8.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

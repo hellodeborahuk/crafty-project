@@ -1,0 +1,51 @@
+defaultPlacement: end
+fieldLayouts:
+  f2af92d9-f94b-4781-85bd-c358e49acb80:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-10-06T19:54:14+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 9c60479d-5c78-41ac-a698-e51fed7b4ad5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a007ec35-e859-453d-8f9f-524b2128d6ec
+        userCondition: null
+handle: topics
+name: Topics
+siteSettings:
+  359773b9-45a8-491e-b4ca-e3bbd917f59e: # crafty project
+    hasUrls: true
+    template: blog/_topic
+    uriFormat: 'blog/topic/{slug}'
+structure:
+  maxLevels: 1
+  uid: 7ef5eeba-5404-4288-b353-23de794b87af

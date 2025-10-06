@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'crafty project'
+primary: true
+siteGroup: c569ebbf-3bf0-41e5-88a6-b7aa733cb763 # crafty project
+sortOrder: 1

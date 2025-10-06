@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ craft.app.language }}">
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ siteName }}</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    {% do craft.app.view.registerCssFile('@web/styles.css') %}
+  </head>
+  <style>
+   h1 {
+    color: red;
+   }
+    img {
+        max-width: 600px;
+        height:auto;
+        object-fit: cover;
+    }
+  </style>
+  <body>
+    {% block content %}
+      {# Nothing here, yet! #}
+    {% endblock %}
+  </body>
+</html>
