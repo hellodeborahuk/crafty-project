@@ -1,0 +1,21 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: bc5a185a-f471-41d5-bba2-a8e4732ac75a # Project
+handle: projects
+maxAuthors: 1
+name: Projects
+previewTargets:
+  -
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  359773b9-45a8-491e-b4ca-e3bbd917f59e: # crafty project
+    enabledByDefault: true
+    hasUrls: true
+    template: projects/_entry.twig
+    uriFormat: 'projects/{slug}'
+type: channel

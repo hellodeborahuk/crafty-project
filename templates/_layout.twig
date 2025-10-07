@@ -5,19 +5,17 @@
     <title>{{ siteName }}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    {% do craft.app.view.registerCssFile('@web/styles.css') %}
+    {# Load our main CSS file in dev mode to avoid FOUC #}
+    {% if craft.vite.devServerRunning() %}
+        <link rel="stylesheet" href="{{ craft.vite.asset("src/css/app.css") }}">
+    {% endif %}
+
+    {{ craft.vite.script('src/js/app.js', false) }}
   </head>
-  <style>
-   h1 {
-    color: red;
-   }
-    img {
-        max-width: 600px;
-        height:auto;
-        object-fit: cover;
-    }
-  </style>
   <body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
     {% block content %}
       {# Nothing here, yet! #}
     {% endblock %}
