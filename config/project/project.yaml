@@ -1,4 +1,4 @@
-dateModified: 1760025070
+dateModified: 1760033242
 email:
   fromEmail: d3bbie.dann@gmail.com
   fromName: 'crafty project'
@@ -27,7 +27,6 @@ meta:
     b26559bd-619d-4fc2-aead-365cae1a4d77: 'Post Categories' # Post Categories
     bc5a185a-f471-41d5-bba2-a8e4732ac75a: Project # Project
     c569ebbf-3bf0-41e5-88a6-b7aa733cb763: 'crafty project' # crafty project
-    d9b8174a-adf5-4f02-8e5d-09200a9897e1: Blog # Blog
     db3ef642-0e1b-4cf4-a58e-dd4aeeffcb21: 'Public Schema' # Public Schema
     db521a39-df28-48ca-bdc3-cc23f2143d5f: 'Project Content' # Project Content
     ded4e4d0-db35-4503-ace2-265cb528b599: Text # Text
