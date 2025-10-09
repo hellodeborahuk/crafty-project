@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: postContent
+handle: projectContent
 instructions: null
-name: 'Post Content'
+name: 'Project Content'
 searchable: true
 settings:
   createButtonLabel: 'Add block'

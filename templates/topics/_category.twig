@@ -1,0 +1,31 @@
+
+{# Get all projects that belong to this category #}
+{% set projects = craft.entries
+    .section('projects')
+    .relatedTo(category)
+    .all() 
+%}
+
+{% block content %}
+
+    <h1 class="text-3xl md:text-8xl">{{ category.title }}</h1>
+    <p class="text-xl">Projects in this category:</p>
+
+    {% if projects | length %}
+        <div class="projects-list">
+            {% for project in projects %}
+                <article class="project">
+                    <h2>
+                        <a href="{{ project.url }}">{{ project.title }}</a>
+                    </h2>
+                    {# Add any other project info you want to display #}
+                </article>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>No projects in this category yet.</p>
+    {% endif %}
+
+    <a href="/">← Back to all categories</a>
+
+{% endblock %}

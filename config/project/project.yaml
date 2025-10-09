@@ -1,4 +1,4 @@
-dateModified: 1759866289
+dateModified: 1760025070
 email:
   fromEmail: d3bbie.dann@gmail.com
   fromName: 'crafty project'
@@ -15,6 +15,8 @@ meta:
   __names__:
     4f1e2e67-be05-427c-98ac-a6a963d18a25: Text # Text
     5cb08747-3638-47f5-816e-28f4f34b7dd7: Projects # Projects
+    8a74c134-d611-491e-9ecc-f0f58582cc13: About # About
+    8ae45b0b-a439-4817-9797-b14bbe21206a: About # About
     9ee8ac15-c76e-443b-a1c1-ffc14a31c104: Image # Image
     545e08d8-f7bf-43f5-81c0-f70a9243218c: Post # Post
     5818a0f6-fc58-4458-a538-3436b5fa5fc8: Topics # Topics
@@ -27,7 +29,7 @@ meta:
     c569ebbf-3bf0-41e5-88a6-b7aa733cb763: 'crafty project' # crafty project
     d9b8174a-adf5-4f02-8e5d-09200a9897e1: Blog # Blog
     db3ef642-0e1b-4cf4-a58e-dd4aeeffcb21: 'Public Schema' # Public Schema
-    db521a39-df28-48ca-bdc3-cc23f2143d5f: 'Post Content' # Post Content
+    db521a39-df28-48ca-bdc3-cc23f2143d5f: 'Project Content' # Project Content
     ded4e4d0-db35-4503-ace2-265cb528b599: Text # Text
 plugins:
   vite:

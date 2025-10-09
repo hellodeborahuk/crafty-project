@@ -44,8 +44,8 @@ name: Topics
 siteSettings:
   359773b9-45a8-491e-b4ca-e3bbd917f59e: # crafty project
     hasUrls: true
-    template: blog/_topic
-    uriFormat: 'blog/topic/{slug}'
+    template: _topic
+    uriFormat: 'topic/{slug}'
 structure:
   maxLevels: 1
   uid: 7ef5eeba-5404-4288-b353-23de794b87af

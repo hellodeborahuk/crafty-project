@@ -13,11 +13,20 @@
     {{ craft.vite.script('src/js/app.js', false) }}
   </head>
   <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <header class="flex justify-between">
+      <h1>{{ siteName }}</h1>
+      <nav class="flex gap-8">
+        <p>Home</p>
+        <p>About</p>
+        <p>All Projects</p>
+      </nav>
+    </header>
     {% block content %}
       {# Nothing here, yet! #}
     {% endblock %}
+    <footer class="flex justify-between">
+      <p>2025</p>
+      <div class="flex">social links</div>
+    </footer>
   </body>
 </html>

@@ -1,6 +1,7 @@
 {% extends '_layout' %}
+{% dump(entry) %}
 {% set featureImage = entry.featureImage.one() %}
-{% set topics = entry.postCategories.all() %}
+{% set topics = entry.projectCategories.all() %}
 {% set projectContent = entry.projectContent.all() %}
 
 
